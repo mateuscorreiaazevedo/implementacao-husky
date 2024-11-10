@@ -10,9 +10,9 @@ npm install @commitlint/config-conventional @commitlint/cli --save-dev
 ## Configurar commitlint
 
 ```
-touch commitlint.config.js && echo 'module.exports = {
+touch commitlint.config.js && echo "module.exports = {
   extends: ['@commitlint/config-conventional'],
-};' > commitlint.config.js
+};" > commitlint.config.js
 ```
 
 ## Configurar o husky
